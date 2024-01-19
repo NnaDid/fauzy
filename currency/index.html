@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    
+    <main>
+
+        <form>
+             <p>
+                <select name="" class="basecurr">
+                    <option value="€">€</option>
+                    <option value="$">$</option>
+                    <option value="£">£</option>
+                    <option value="₦">₦</option>                    
+                </select>
+                <input type="number" class="bc_amount">
+            </p>
+             <p>
+                <select name="" class="targetcurr">
+                    <option value="€">€</option>
+                    <option value="$">$</option>
+                    <option value="£">£</option>
+                    <option value="₦" selected>₦</option>  
+                </select>
+                <input type="number" class="tc_amount">
+            </p>
+            <button id="convertbtn">Convert!</button>
+            <p class="result"></p>
+        </form>
+
+    </main>
+
+
+    <div class="chatimage"></div>
+    <div class="chatbox">
+        <div class="header">
+              <img src="chat.png" alt="chatimage" height="40" width="40" />
+              <h3 class="cancel"> &times; </h3>
+        </div>
+        <div class="body">
+            <div style="padding:5px;text-align: center;">
+                <p>  <input type="text" class="name" placeholder="name"/>  </p>
+                <p>  <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea> </p>
+               <button id="send">Send!</button> 
+           </div>
+   
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
