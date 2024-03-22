@@ -1,0 +1,30 @@
+.clock{
+    width:120px;
+    height: 30px;
+    background-color: black;
+    color:#fff;
+    font-weight:800;
+    font-style: oblique;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.stop{
+    background-color: red;
+    color: #fff;
+    width:70px;
+    height: 30px;
+    font-weight: 900;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.stop:hover{
+    cursor: pointer;
+    font-size: larger;
+    transition: all 0.3s ease-in-out;
+}
+.myTime{
+    display: flex;
+}
